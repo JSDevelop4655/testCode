@@ -13,7 +13,7 @@ export default function UserItem({ user }) {
   const onPressName = () => {
     dispatch(fetchUserDetails(user.login));
   };
-console.log("first", user);
+
   return (
     <View style={styles.container}>
       <Image

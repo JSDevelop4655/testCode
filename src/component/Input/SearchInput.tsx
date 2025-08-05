@@ -8,7 +8,7 @@ export default function SearchInput() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(setSearchText(text)); // update searchText in Redux
+    dispatch(setSearchText(text)); 
 
     const handler = setTimeout(() => {
       if (text.trim()) {
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingHorizontal: 8,
     borderRadius: 5,
-    paddingRight: 30, // Add padding to make room for clear button
+    paddingRight: 30, 
   },
   clearButton: {
     position: 'absolute',
